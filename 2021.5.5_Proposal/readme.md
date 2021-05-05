@@ -12,7 +12,7 @@ Data to be used
 * Dataset from this published [article](https://www.nature.com/articles/s41746-020-00372-6) and corresponding [GitHub blog](https://github.com/nshomron/covidpred/tree/master/data).
 * 1 target: Covid test result (positive, negative, other)
 * 8 features: Age, Sex, Cough, Shortness of breath, Fever, Sore_throat, Headache, Contact_with_confirmed
-* > 3 million rows: each row is one test
+* About 3 million rows: each row is one test
 
 Future planning
 1. Review and explore the dataset (by May 7)
