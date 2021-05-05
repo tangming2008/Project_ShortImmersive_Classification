@@ -8,7 +8,7 @@ Last updated on 2021/5/5 by Ming Tang
 
 Questions to be answered
 * Can we reliably predict covid test results based on the symptom?
-* If the prediction is possible, what is the contribution/importance of each features?
+* If the prediction is possible, what is the contribution/importance of each feature?
 
 
 Data to be used
