@@ -14,7 +14,7 @@ Summary
   * 1st round model tuning (using GridSearch
   * preliminary interpretation (feature importance)
 * In progress:
-  * app: will work on streamlit soon (**this will be the priority for me**)
+  * visualization: will work on streamlit soon (this will be the priority for me)
   * model tuning (will revise parameters in the GridSearchCV)
   * script summary
   * presentation slides
@@ -32,6 +32,6 @@ Feature importance
 Threshold tuning:
 * Figure below shows the effect of the decision threshold on the metrics (LogisticRgression model here)
 * The key objective of building this model is to maximize the **recall** (i.e. to minimize the false negative / covid-infected people predicted as good). However, the score vs threshold curve (below) clearly show that recall > 0.8 can be only achieved at the significant cost of a lower accuracy. A few advanced ensemble methods (bagging-RandomForest, and boosting-XGboost) have been tested but cannot help increase the recall without compromising the accuracy.
-* The limited model performance is likely due to the asymptomatic cases (for all observations: baseline positive rate is about 10%; for all people without any symptoms or “contact_with_confirmed”, the positive rate is still as high as 3.6%)
+* The limited model performance is likely due to the asymptomatic cases (for all observations: baseline positive rate is about 10%; for all people without any symptoms or “contact_with_confirmed”, the positive rate is still as high as 3.7%)
 
 ![Threshold tuning](/2021.5.11_mvp/figures/2.jpg?raw=true)
