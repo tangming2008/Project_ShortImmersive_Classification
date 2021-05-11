@@ -14,7 +14,7 @@ Summary
   * 1st round model tuning (using GridSearch
   * preliminary interpretation (feature importance)
 * In progress:
-  * visualization: will work on streamlit soon (this will be the priority for me)
+  * visualization: will work on streamlit soon (**this will be the priority for me**)
   * model tuning (will revise parameters in the GridSearchCV)
   * script summary
   * presentation slides
