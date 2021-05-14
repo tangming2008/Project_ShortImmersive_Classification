@@ -41,5 +41,5 @@ Ming Tang, last updated on 2021/5/14
 
 ![OnlineApp](/figures/app_screenshot.JPG?raw=true)
 
-
-I sincerely appreciate great suggestions from the instructors (Kim and Joan), TAs (Tawney and Ethan), and the group team (Matthew, Leslie, Jason).
+## Acknowledgement
+* I sincerely appreciate great suggestions from the instructors (Kim and Joan), TAs (Tawney and Ethan), and the group team (Matthew, Leslie, Jason)!
