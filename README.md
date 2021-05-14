@@ -15,28 +15,25 @@ Ming Tang, last updated on 2021/5/14
 * 8 features: age, sex, cough, shortness_of_breath, fever, sore_throat, Headache, contact_with_confirmed
 * About 3 million rows: each row is one test (all 3 million rows are used in the data explanatory but only 10,000 rows are used for training the classification models for the sake of computation time)
 
-## Algorithms
-*Feature Engineering*
+
+## Tool/Packages used
+* Data exploration: pandas, numpy, matplotlib
+* Classification: scikit-learn, XGBoost
+* Application: Streamlit, Heruko
 
 
-*Models*
-* Tested models: KNN, Logistic regression, decision tree, random forest, SVC, naive bayes, xgboos, ensemble
-
-
-## Algorithms
-
-*Feature Engineering*
-
-
-*Models*
-
-Logistic regression, k-nearest neighbors, and random forest classifiers were used before settling on random forest as the model with strongest cross-validation performance. Random forest feature importance ranking was used directly to guide the choice and order of variables to be included as the model underwent refinement.
-
-*Model Evaluation and Selection*
-
+## Modeling
+* Different models, class imbalance, and bagging/boosting approaches are tested.
+* The simple LogisticRgression with a threshold of 0.1 generates balanced results
+* Final model:
+  * P-threshold, 0.1
+  * Accuracy, 0.924
+  * Precision, 0.58
+  * Recall, 0.64
+  * F1, 0.61
 
 ## App
-* The model has been incorporated into an interactive app by using Strealit and deployed on Heroku.
+* The model has been incorporated into an interactive app by using Streamlit and deployed on Heroku.
 * [Click here to check it out](https://classification-app-20210513-v3.herokuapp.com/)
 
 ![OnlineApp](/figures/app_screenshot.JPG?raw=true)
