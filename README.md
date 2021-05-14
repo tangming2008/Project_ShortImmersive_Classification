@@ -3,11 +3,11 @@ Ming Tang, last updated on 2021/5/14
 
 ## Abstract
 * The goal is to use classification models to predict when covid test results (positive/negative).
-* Classification models were used for such predictions
-* An interactive dashboard was built [here](https://classification-app-20210513-v3.herokuapp.com/)
-* Questions to be answered
-  * Can we reliably predict covid test results based on the symptom?
-  * If the prediction is possible, what is the contribution/importance of each feature?
+* Key questions to be answered
+  1. Can we reliably predict covid test results based on the symptom?
+  2. If the prediction is possible, what is the contribution/importance of each feature?
+* An interactive dashboard/app was built. [click here](https://classification-app-20210513-v3.herokuapp.com/)
+
 
 ## Data
 * Dataset from this published [article](https://www.nature.com/articles/s41746-020-00372-6) and corresponding [GitHub](https://github.com/nshomron/covidpred/tree/master/data).
@@ -21,16 +21,19 @@ Ming Tang, last updated on 2021/5/14
 * Application: Streamlit, Heruko
 
 ## Modeling
-* Different models are tested: KNN, LogisticRgression, NaiveBayes (Bernoulli), DecisionTree, RandomForest, Ensemble, and Boost are tested. 
-* Models are tuned by GridSearchCV
+* Different models are tested: KNN, LogisticRgression, NaiveBayes (Bernoulli), DecisionTree, RandomForest, Ensemble, and Boost are tested.
+* Models are tuned by GridSearchCV.
 * Class imbalance techniques (over/under sampling, class weight adjustment, and threshold tuning) are used to tune the models.
 * Feature importance was examined in the LogisticRgression, Forest, and XGBoost.
 * **Final model**: The simple LogisticRgression with a threshold of 0.1 generates balanced results
-  * P-threshold, 0.1
-  * Accuracy, 0.924
-  * Precision, 0.58
-  * Recall, 0.64
-  * F1, 0.61
+  * P-threshold: 0.1
+  * Accuracy: 0.924
+  * Precision: 0.58
+  * Recall: 0.64
+  * F1: 0.61
+* **Modeling conclusions**
+  * Predicting covid test results is possible
+  * Recall is rather limited (~ 0.6), likely due to the asymptomatic cases
 
 ## App
 * The model has been incorporated into an interactive app by using Streamlit and deployed on Heroku.
