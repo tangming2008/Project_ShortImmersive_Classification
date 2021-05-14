@@ -40,3 +40,6 @@ Ming Tang, last updated on 2021/5/14
 * [Click here to check it out](https://classification-app-20210513-v3.herokuapp.com/)
 
 ![OnlineApp](/figures/app_screenshot.JPG?raw=true)
+
+
+I sincerely appreciate great suggestions from the instructors (Kim and Joan), TAs (Tawney and Ethan), and the group team (Matthew, Leslie, Jason).
