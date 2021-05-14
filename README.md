@@ -36,7 +36,7 @@ Logistic regression, k-nearest neighbors, and random forest classifiers were use
 
 
 ## App
-The model has been incorporated into an interactive app by using Strealit and deployed on Heroku.
-[Click here to check it out](https://classification-app-20210513-v3.herokuapp.com/)
+* The model has been incorporated into an interactive app by using Strealit and deployed on Heroku.
+* [Click here to check it out](https://classification-app-20210513-v3.herokuapp.com/)
 
 ![OnlineApp](/figures/app_screenshot.JPG?raw=true)
